@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color"
+    tools:context="com.ty.digitalfarms.ui.activity.RegionActivity">
+
+    <LinearLayout
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:paddingBottom="@dimen/space_3"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <com.ty.digitalfarms.ui.view.banner.Banner
+            android:id="@+id/banner_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:isAutoPlay="true"
+            app:scrollable="true"
+            app:pageLimit="2"
+            app:pageMargin="@dimen/space_20"
+            app:leftPageWidth="0dp"
+            app:rightPageWidth="0dp"
+            app:delayTime="5000"/>
+
+        <LinearLayout
+            android:id="@+id/ll_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_5"
+            android:orientation="horizontal"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_5"
+        android:padding="@dimen/space_5">
+
+        <View
+            android:id="@+id/view_1"
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_region"
+            android:gravity="center"
+            android:textSize="@dimen/text_18"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/view_1"
+            android:layout_marginLeft="@dimen/space_5"
+            android:textColor="@color/black"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/space_5"
+        android:background="@color/split_line"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_region"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/space_10"
+        android:layout_marginRight="@dimen/space_10"
+        />
+
+</LinearLayout>

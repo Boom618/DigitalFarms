@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.MapActivity">
+
+    <include layout="@layout/tool_bar_layout" />
+
+    <View
+        android:id="@+id/title_split"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tool_bar"
+        android:background="@color/split_line" />
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_split"
+        android:clickable="true" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_split"
+        android:layout_marginBottom="@dimen/space_5"
+        android:layout_marginLeft="@dimen/space_30"
+        android:layout_marginRight="@dimen/space_30"
+        android:layout_marginTop="@dimen/space_5"
+        android:background="@drawable/shape_bg_radius"
+        android:visibility="gone" />
+
+</RelativeLayout>

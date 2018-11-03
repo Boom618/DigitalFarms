@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.lai.weavey:dialog-2.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/5a372dd637ac0d38d00b5703a2e09e3056d6fdef/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/5a372dd637ac0d38d00b5703a2e09e3056d6fdef/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lai.weavey/dialog/2.0.1/fa2df11a451ee42ed8fc381e712caf5f3cffd234/dialog-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionOverflowMenuStyle">@style/menuStyle</item><!--设置为溢出式的-->
+    </style>
+
+    <!--设置为溢出式的-->
+    <style name="menuStyle" parent="@style/Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <!--选择时间对话框-->
+    <style name="time_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!--
+    <style name="popup_theme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/white</item>
+        <item name="android:actionMenuTextColor">@android:color/black</item>
+        <item name="textColorPrimary">@android:color/black</item>
+    </style> PopupTheme样式 .-->
+
+
+    <style name="Bubble.TextAppearance.Dark" parent="android:TextAppearance.Medium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ff7f7f7f</item>
+    </style>
+
+    <style name="Bubble.TextAppearance.Light" parent="Bubble.TextAppearance.Dark">
+        <item name="android:textColor">#ffeeeeee</item>
+    </style>
+
+    <style name="ClusterIcon.TextAppearance" parent="android:TextAppearance">
+        <item name="android:textColor">#ffeeeeee</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="base_toolbar" parent="toolbar"></style>
+    <!-- ToolBar样式.-->
+    <style name="toolbar_theme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <!--修改toolbar的Title(大标题)颜色-->
+        <item name="android:textColorPrimary">@color/white</item>
+        <!--修改toolbar的subtitle(小标题)颜色-->
+        <item name="subtitleTextColor">@color/white</item>
+        <!--修改toolbar的图标颜色.-->
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+    <!-- ToolBar菜单样式.-->
+    <style name="popup_theme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <!--设置背景-->
+        <item name="android:background">@android:color/white</item>
+        <!--设置字体颜色-->
+        <item name="android:textColor">@android:color/black</item>
+        <!--设置不覆盖锚点-->
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <style name="CustomDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- 圆形ImageView的自定义属性 -->
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <style name="CustomCheckBoxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/selector_checkbox</item>
+    </style>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/more"
+        android:title="@string/more">
+        <item
+            android:id="@+id/menu_grid"
+            android:title="@string/menu_grid"
+            app:showAsAction="never"
+            android:icon="@mipmap/icon_map"/>
+        <item
+            android:id="@+id/menu_map"
+            android:title="@string/menu_map"
+            app:showAsAction="never"
+            android:icon="@mipmap/icon_map"/>
+    </item>
+
+</menu>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/top_title_layout"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_10"
+        android:text="风向趋势图"
+        android:textColor="@color/line_title"
+        android:textSize="@dimen/text_20" />
+
+    <LinearLayout
+        android:id="@+id/ll_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="@dimen/space_10"
+        android:layout_marginTop="@dimen/space_10"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_calendar"
+            android:layout_marginLeft="@dimen/space_10"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_time"
+            android:textSize="@dimen/text_17"
+            android:textColor="@color/time_label"
+            android:layout_marginLeft="@dimen/space_20"
+            />
+
+        <TextView
+            android:id="@+id/tv_select_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_start_time"
+            android:textSize="@dimen/text_15"
+            android:textColor="@color/time_minor"
+            android:layout_marginLeft="@dimen/space_20"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/space_10"
+        android:layout_marginRight="@dimen/space_10"
+        android:background="@color/line__spit_color"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="@dimen/space_10"
+        android:layout_marginTop="@dimen/space_10"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_calendar"
+            android:layout_marginLeft="@dimen/space_10"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/end_time"
+            android:textSize="@dimen/text_17"
+            android:textColor="@color/time_label"
+            android:layout_marginLeft="@dimen/space_20"
+            />
+
+        <TextView
+            android:id="@+id/tv_select_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_end_time"
+            android:textSize="@dimen/text_15"
+            android:textColor="@color/time_minor"
+            android:layout_marginLeft="@dimen/space_20"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/space_10"
+        android:layout_marginRight="@dimen/space_10"
+        android:layout_marginBottom="@dimen/space_20"
+        android:background="@color/line__spit_color"
+        />
+
+    <rorbin.q.radarview.RadarView
+        android:id="@+id/radar_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/space_10"
+        android:layout_weight="1"
+        />
+
+
+</LinearLayout>
+
+
+
+

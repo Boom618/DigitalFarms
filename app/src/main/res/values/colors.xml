@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="line_color">#E2E2E2</color>
+    <color name="tv_main_color">#FF6B6B6B</color>
+    <color name="tv_minor_color">#FF909090</color>
+    <color name="tv_pig_color">#FFFF9083</color>
+    <color name="btn_press_color">#8bc64c</color>
+    <color name="btn_normal_color">#139348</color>
+    <color name="title_color">#FF212121</color>
+    <color name="all_check_color">#FF5A5A5A</color>
+    <color name="main_color">#FF44A738</color>
+    <color name="breed_main_color">#FF585858</color>
+    <color name="breed_minor_color">#FF6B6B6B</color>
+    <color name="breed_light_color">#FF909090</color>
+    <color name="f8_color">#FF888888</color>
+    <color name="normal_color">#FFA4DB00</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="cl_80c469">#80c469</color>
+    <color name="items_textview_bg">#ededed</color>
+    <color name="livstview_item_bg">#dfdfdf</color>
+    <color name="translucent_70p">#B3000000</color>
+    <color name="viewfinder_laser">#FF03A9F4</color>
+    <color name="viewfinder_laser_transparent">#0003A9F4</color>
+    <color name="viewfinder_frame">@color/colorPrimary</color>
+    <color name="light_red">@android:color/holo_red_light</color>
+    <color name="light_blue">@android:color/holo_blue_light</color>
+    <color name="light_green">@android:color/holo_green_light</color>
+    <color name="dialog_weather_title">#FF1F86C8</color>
+    <color name="dialog_carmer_title">#FFE57034</color>
+    <color name="dialog_minor">#FFBCB8B6</color>
+    <color name="line_title">#FFE57034</color>
+    <color name="light_max">#E57034</color>
+    <color name="light_avg">#43A7D4</color>
+    <color name="light_min">#EDBB48</color>
+    <color name="time_label">#FF7A7A7A</color>
+    <color name="time_minor">#FFA4A4A4</color>
+    <color name="line__spit_color">#D1D1D1</color>
+    <color name="indicator_color">#FF1F86C8</color>
+    <color name="tab_text_color">@android:color/holo_blue_light</color>
+    <color name="vedio_bg_color">#1F1F1F</color>
+    <color name="video_toolbar_color">#040404</color>
+    <color name="btn_login_press_color">#FFF</color>
+    <color name="btn_text_normal_color">#FF1F86C8</color>
+    <color name="btn_login_normal_color">#14A700</color>
+    <color name="btn_login_text_press">#14A700</color>
+    <color name="data_bg_color">#F7FFF8</color>
+    <color name="item_device_name_color">#FF6C6C6C</color>
+    <color name="item_device_locate_color">#FF6C6C6C</color>
+    <color name="type_name_color">#FF808080</color>
+    <color name="type_value_color">#FF808080</color>
+    <color name="shape_color">#C9C9C9</color>
+    <color name="rain_sky_day_start">#2b4151</color>
+    <color name="rain_sky_day_end">#316081</color>
+    <color name="rain_sky_night_start">#041d31</color>
+    <color name="rain_sky_night_end">#081621</color>
+    <color name="nav_bar_color">#F3F3F3</color>
+
+
+    <!--新的Color-->
+    <color name="main_blue">#1976D2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bg_color">#F3F3F3</color>
+    <color name="split_line">#EAEAEA</color>
+    <color name="txt_minor_color">#999999</color>
+    <color name="txt_main_color">#333333</color>
+    <color name="home_color">#333333</color>
+    <color name="home_line_color">#999999</color>
+    <color name="toolbar_color">#88263238</color><!--title-->
+    <color name="txt_title_color">#333333</color>
+    <color name="transparent_black">#99000000</color><!--title字体-->
+    <color name="camera_bg_color">#49616B</color>
+    <color name="weather_bg_color">#585262</color>
+    <color name="status_bar_color">#55263238</color>
+    <color name="transparent_color">@android:color/transparent</color>
+
+
+</resources>

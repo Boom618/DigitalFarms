@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Ty\DigitalFarms\library\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="35461452e4063d773a5c518d4ea98e221c345a25">
+        <dex dex="E:\Ty\DigitalFarms\app\build\intermediates\pre-dexed\debug\classes_b119858ff41ea412e068b4f9d6e0d81eefc53ff3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Ty\DigitalFarms\app\libs\MediaPlayer.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5311ba48c7b35a67ab0da8bf934729b278f02399">
+        <dex dex="E:\Ty\DigitalFarms\app\build\intermediates\pre-dexed\debug\MediaPlayer_553592e70c385b2758685817af72a117f9e608bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Ty\DigitalFarms\rxeasyhttp\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="eec1a961a0f4cf09b0d7c22f2f10951d85caea6c">
+        <dex dex="E:\Ty\DigitalFarms\app\build\intermediates\pre-dexed\debug\classes_8747649b8dea82806f8549de1672d058783b1e37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Ty\DigitalFarms\app\libs\HCNetSDK.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e769a43ce11dd9cea44ed29fb1985f1423ff0b1c">
+        <dex dex="E:\Ty\DigitalFarms\app\build\intermediates\pre-dexed\debug\HCNetSDK_2391aa521a0ad4042e3a65a17981e13c7b872e1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Ty\DigitalFarms\app\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="E:\Ty\DigitalFarms\app\build\intermediates\pre-dexed\debug\xUtils-2.6.14_85d3093519794efa30e1fc4a195a4993bc9b3055.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Ty\DigitalFarms\app\libs\MCRSDK.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2323bc0d9f048894fd928f936b6204e6400ec3c8">
+        <dex dex="E:\Ty\DigitalFarms\app\build\intermediates\pre-dexed\debug\MCRSDK_7114f34e431c903dbe939011c1851d221695e3cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Ty\DigitalFarms\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="117c82905fb125092a63cc3fdcd467d56462353c">
+        <dex dex="E:\Ty\DigitalFarms\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android_0cef467923859cd3dd303a2450e241a16a507055.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Ty\DigitalFarms\app\libs\sdk_HeWeather_Public_Android_V122.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf3487b2a9c4ebaaa4014e62ac3660e13d7a8213">
+        <dex dex="E:\Ty\DigitalFarms\app\build\intermediates\pre-dexed\debug\sdk_HeWeather_Public_Android_V122_3348f2d10dfe652011212c5f1d4cf92468f5ec33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Ty\DigitalFarms\app\libs\ecs.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7886847106f8d5b70fecd98969018b9901099d9c">
+        <dex dex="E:\Ty\DigitalFarms\app\build\intermediates\pre-dexed\debug\ecs_360e6943c4aa42aa28664d0b3012771c4f8d4e63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Ty\DigitalFarms\MultilevelTreeLibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="58b0a00d4a46344b47d6495bf0a892bc6063b9e5">
+        <dex dex="E:\Ty\DigitalFarms\app\build\intermediates\pre-dexed\debug\classes_fd6ec3a1ca4465fe75c667b5b23082fb6b9bf693.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Ty\DigitalFarms\app\libs\vmsnetsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cfc3d8ad63384548522ad3fe0d01e8cf5ac1a427">
+        <dex dex="E:\Ty\DigitalFarms\app\build\intermediates\pre-dexed\debug\vmsnetsdk_1509ba821ffb4f70a2b1956661279117ce64f92b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Ty\DigitalFarms\app\libs\PlayerSDK.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5ae800c07289f7e21f0d794705b4069c447cd0a6">
+        <dex dex="E:\Ty\DigitalFarms\app\build\intermediates\pre-dexed\debug\PlayerSDK_c8d648251029150cf3163b55e5b29a69e4878a86.jar" />
+    </item>
+
+</items>

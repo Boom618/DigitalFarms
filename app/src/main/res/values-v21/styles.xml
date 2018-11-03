@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="base_toolbar" parent="@style/toolbar">
+        <item name="android:elevation">6px</item>
+        <item name="android:navigationIcon">?attr/homeAsUpIndicator</item>
+    </style>
+
+    <!--选择时间对话框-->
+    <style name="time_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,16 @@
+package com.ty.digitalfarms.hikvision.playback;
+
+/**
+ * 回放回调接口
+ * @author huangweifeng
+ * @Data 2013-10-28
+ */
+public interface PlayBackCallBack {
+    /**
+     * 播放引擎消息回调接口
+     * 
+     * @param message 消息
+     * @since V1.0
+     */
+     void onMessageCallback(int message);
+}

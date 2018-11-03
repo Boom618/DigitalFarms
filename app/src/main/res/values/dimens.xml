@@ -1,0 +1,45 @@
+<resources>
+    <dimen name="text_28">22sp</dimen>
+    <dimen name="space_5">5dp</dimen>
+    <dimen name="space_10">10dp</dimen>
+    <dimen name="space_30">30dp</dimen>
+    <dimen name="space_20">20dp</dimen>
+    <dimen name="space_80">80dp</dimen>
+    <dimen name="space_25">25dp</dimen>
+    <dimen name="space_3">3dp</dimen>
+    <dimen name="space_4">4dp</dimen>
+    <dimen name="space_2">2dp</dimen>
+    <dimen name="space_6">6dp</dimen>
+    <dimen name="space_7">7dp</dimen>
+    <dimen name="space_15">15dp</dimen>
+
+    <!--喂养Fragment-->
+    <dimen name="text_26">26sp</dimen>
+    <dimen name="text_24">24sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="space_50">50dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="space_1">1dp</dimen>
+    <dimen name="text_13">13sp</dimen>
+    <dimen name="text_15">15sp</dimen>
+    <dimen name="space_40">40dp</dimen>
+    <dimen name="text_17">17sp</dimen>
+    <dimen name="ctr_size">64dp</dimen>
+    <dimen name="ctr_space">10dp</dimen>
+    <dimen name="space_60">60dp</dimen>
+    <dimen name="btn_login_radius">80dp</dimen>
+    <dimen name="text_10">10sp</dimen>
+    <dimen name="space_100">100dp</dimen>
+
+    <dimen name="ctr_width">200px</dimen>
+    <dimen name="space_9">9dp</dimen>
+    <dimen name="space_12">12dp</dimen>
+    <dimen name="space_13">13dp</dimen>
+    <dimen name="space_18">18dp</dimen>
+
+
+</resources>

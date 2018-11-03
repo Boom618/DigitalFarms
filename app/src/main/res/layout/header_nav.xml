@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="220dp"
+    android:layout_height="match_parent"
+    android:background="#263238"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_10"
+        android:padding="@dimen/space_10">
+
+        <com.ty.digitalfarms.ui.view.CircleImageView
+            android:id="@+id/iv_pic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="@color/bg_color"
+            app:civ_border_width="1dp" />
+
+        <TextView
+            android:id="@+id/tv_person_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_pic"
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_marginTop="-30dp"
+            android:layout_toRightOf="@id/iv_pic"
+            android:text="姓名"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_20" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_pic"
+        android:layout_marginTop="@dimen/space_80"
+        android:padding="@dimen/space_10">
+
+        <ImageView
+            android:id="@+id/iv_album"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_album" />
+
+        <TextView
+            android:id="@+id/tv_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/space_30"
+            android:layout_toRightOf="@id/iv_album"
+            android:text="我的相册"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_20" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_about_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_album"
+        android:layout_marginTop="@dimen/space_20"
+        android:padding="@dimen/space_10">
+
+        <ImageView
+            android:id="@+id/iv_about_me"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_about_me" />
+
+        <TextView
+            android:id="@+id/tv_about_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/space_30"
+            android:layout_toRightOf="@id/iv_about_me"
+            android:text="关于我们"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_20" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl__cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/space_50"
+        android:padding="@dimen/space_10">
+
+        <ImageView
+            android:id="@+id/iv__cancel"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_exit" />
+
+        <TextView
+            android:id="@+id/tv__cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/space_30"
+            android:layout_toRightOf="@id/iv__cancel"
+            android:text="退出登录"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_20" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

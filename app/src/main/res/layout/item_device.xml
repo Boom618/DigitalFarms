@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+
+        <ImageView
+            android:id="@+id/iv_device"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_color"
+        android:paddingTop="@dimen/space_3"
+        android:paddingLeft="@dimen/space_3"
+        android:paddingRight="@dimen/space_3">
+
+        <TextView
+            android:id="@+id/tv_devices_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="林州市"
+            android:textColor="@color/txt_main_color"
+            android:textSize="@dimen/text_14" />
+
+        <TextView
+            android:id="@+id/tv_devices_locate"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/space_18"
+            android:text="林州市"
+            android:textColor="@color/txt_minor_color"
+            android:textSize="@dimen/text_12" />
+
+        <ImageView
+            android:id="@+id/iv_locate"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginTop="@dimen/space_20"
+            android:layout_toLeftOf="@id/tv_devices_locate"
+            android:src="@mipmap/ic_location_black" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+

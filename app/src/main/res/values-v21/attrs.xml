@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- areaBackground 设置区域背景
+         rockerBackground 设置摇杆的样式
+         rockerScale 设置摇杆的相对于背景的比例
+         rockerSpeedLevel 设置当前位置相对于中心点的距离的比例  如：10  则中心点到边缘的距离分为10分 越靠外数值越大0-10
+         rockerCallBackMode 有变化就回调，或者是方向改变才会回调-->
+    <declare-styleable name="RockerView">
+        <attr name="areaBackground" format="color|reference" />
+        <attr name="rockerBackground" format="color|reference" />
+        <attr name="rockerScale" format="float"/>
+        <attr name="rockerSpeedLevel" format="integer" />
+        <attr name="rockerCallBackMode">
+            <flag name="CALL_BACK_MODE_MOVE" value="0" />
+            <flag name="CALL_BACK_MODE_STATE_CHANGE" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="suitlines">
+        <attr name="xySize" format="float" />
+        <attr name="xyColor" format="reference|color" />
+        <attr name="lineType">
+            <enum name="curve" value="0" />
+            <enum name="segment" value="1" />
+        </attr>
+        <attr name="lineStyle">
+            <enum name="solid" value="0" />
+            <enum name="dashed" value="1" />
+        </attr>
+        <attr name="needEdgeEffect" format="boolean" />
+        <attr name="colorEdgeEffect" format="reference|color" />
+        <attr name="needClickHint" format="boolean" />
+        <attr name="colorHint" format="reference|color" />
+        <attr name="maxOfVisible" format="integer" />
+        <attr name="countOfY" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="TimebarView">
+        <!--时间尺中间刻度条颜色-->
+        <attr name="middleCursorColor" format="color" />
+        <!--时间刻度文字颜色-->
+        <attr name="recordTextColor" format="color" />
+        <!--含有录像背景颜色-->
+        <attr name="recordBackgroundColor" format="color" />
+        <!--含有时间尺边框及刻度条颜色-->
+        <attr name="timebarColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="Banner">
+        <!--轮播延迟时间-->
+        <attr name="delayTime" format="integer" />
+        <!--viewpager滚动过程持续时间-->
+        <attr name="scrollDuration" format="integer" />
+        <!--是否自动轮播-->
+        <attr name="isAutoPlay" format="boolean" />
+        <!--viewpager是否可以手动滑动-->
+        <attr name="scrollable" format="boolean" />
+        <!--banner item之间的间隔-->
+        <attr name="pageMargin" format="dimension" />
+        <!--viewpager预加载页面数-->
+        <attr name="pageLimit" format="integer" />
+        <!--左侧item显示的宽度-->
+        <attr name="leftPageWidth" format="dimension" />
+        <!--右侧item显示的宽度-->
+        <attr name="rightPageWidth" format="dimension" />
+        <!--banner为空时的站位图-->
+        <attr name="emptyImage" format="reference"/>
+    </declare-styleable>
+
+</resources>

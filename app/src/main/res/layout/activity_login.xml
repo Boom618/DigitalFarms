@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/icon_login_bg"
+    tools:context=".ui.activity.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/space_60"
+        android:visibility="visible"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_head"
+        android:layout_marginLeft="@dimen/space_25"
+        android:layout_marginRight="@dimen/space_25"
+        android:layout_marginTop="@dimen/space_50"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/space_10">
+
+        <EditText
+            android:id="@+id/et_userNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_10"
+            android:background="@null"
+            android:drawableLeft="@mipmap/icon_user"
+            android:drawablePadding="@dimen/space_15"
+            android:hint="@string/userPhone"
+            android:padding="@dimen/space_5"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLines="1"
+            />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginLeft="@dimen/space_5"
+            android:layout_marginRight="@dimen/space_5"
+            android:layout_marginTop="@dimen/space_5"
+            android:layout_below="@id/et_userNo"
+            android:background="@color/white" />
+
+        <EditText
+            android:id="@+id/et_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line2"
+            android:layout_marginTop="@dimen/space_10"
+            android:background="@null"
+            android:drawableLeft="@mipmap/icon_pwd"
+            android:drawablePadding="@dimen/space_15"
+            android:hint="@string/pwd"
+            android:imeActionId="@+id/login"
+            android:inputType="textPassword"
+            android:padding="@dimen/space_5"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionDone"
+            android:maxLines="1"
+            />
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginLeft="@dimen/space_5"
+            android:layout_marginRight="@dimen/space_5"
+            android:layout_marginTop="@dimen/space_5"
+            android:layout_below="@id/et_pwd"
+            android:background="@color/white" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl"
+        android:layout_marginLeft="@dimen/space_25"
+        android:layout_marginRight="@dimen/space_25"
+        android:layout_marginTop="@dimen/space_50"
+        android:background="@drawable/btn_login_selector"
+        android:text="@string/action_sign_in"
+        android:textColor="@drawable/btn_login_text_color"
+        android:textSize="@dimen/text_18"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/space_10"
+        android:text="@string/copyright"/>
+
+</RelativeLayout>
